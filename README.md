@@ -19,7 +19,7 @@
 
 1、平均指标：针对某一信号，若真实值为[y_1,y_2,y_3,y_4]，模型预测概率值为[a_1,a_2,a_3,a_4]那么该模型的平均指标abs_sum为
 
-![](https://latex.codecogs.com/svg.image?abs_sum=\sum_{j=1}^{n}\sum_{i=1}^{4}\left|y_i-a_i\right|)
+![](https://latex.codecogs.com/svg.image?abs\_sum=\sum_{j=1}^{n}\sum_{i=1}^{4}\left|y_i-a_i\right|)
 
 例如，心跳信号为1，会通过编码转成[0, 1, 0, 0]，预测不同心跳信号概率为[0.1, 0.7, 0.1, 0.1]，那么这个预测结果的平均指标为。
 
