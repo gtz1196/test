@@ -27,7 +27,7 @@
 
 2、预测准确率：若预测结果与真实值一致，认为预测正确，否则认为预测不正确，那么该模型的预测准确率为
 
-![](https://latex.codecogs.com/svg.image?acc=\frac{Number\ of\ correct\ prediction\ results}{Total\ number\ of\ samples})
+![](https://latex.codecogs.com/svg.image?acc=\frac{Number\&space;of\&space;correct\&space;prediction\&space;results}{Total\&space;number\&space;of\&space;samples})
 
 ### 实验结果
 
