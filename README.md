@@ -23,11 +23,11 @@
 
 例如，心跳信号为1，会通过编码转成[0, 1, 0, 0]，预测不同心跳信号概率为[0.1, 0.7, 0.1, 0.1]，那么这个预测结果的平均指标为。
 
-abs\_sum=
+![](https://latex.codecogs.com/svg.image?abs=\left|0.1-0\right|&plus;\left|0.7-1\right|&plus;\left|0.1-0\right|&plus;\left|0.1-0\right|=0.6)
 
 2、预测准确率：若预测结果与真实值一致，认为预测正确，否则认为预测不正确，那么该模型的预测准确率为
 
-abs\_sum=
+![](https://latex.codecogs.com/svg.image?acc=\frac{预测准确的样本数量}{测试集样本总数})
 
 ### 实验结果
 
